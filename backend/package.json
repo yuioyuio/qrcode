@@ -1,0 +1,26 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "using QR codes to create stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuioyuio/qrcode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "qr"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuioyuio/qrcode/issues"
+  },
+  "homepage": "https://github.com/yuioyuio/qrcode#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+  }
+}

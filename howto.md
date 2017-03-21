@@ -23,3 +23,12 @@ $ npm init
 # note we don't use the -g switch which would instal this globally - we just want local
 $ npm install express --save
 ```
+
+Running the app
+
+``` shell
+$ pwd
+~/qrcode/backend
+$ nodejs app.js &
+$ curl 127.0.0.1:8080/qrcodes
+```

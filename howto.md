@@ -33,3 +33,5 @@ $ pwd
 $ nodejs app.js &
 $ curl 127.0.0.1:8080/qrcodes
 ```
+
+Open ```127.0.0.1:8080/qrcodessvg/1/0``` in your browser to view the QR Code

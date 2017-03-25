@@ -22,6 +22,7 @@ $ pwd
 $ npm init
 # note we don't use the -g switch which would instal this globally - we just want local
 $ npm install express --save
+$ npm install qr-image --save
 ```
 
 Running the app

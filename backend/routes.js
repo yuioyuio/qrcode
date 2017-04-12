@@ -5,4 +5,6 @@ module.exports = function(app) {
   
   app.route("/qrcodes")
     .get(controller.list_all_codes);
+  app.route('/qrcodessvg/:id/:msg')
+    .get(controller.list_all_codes_svg);
 };

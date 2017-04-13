@@ -35,3 +35,9 @@ $ curl 127.0.0.1:8080/qrcodes
 ```
 
 Open ```127.0.0.1:8080/qrcodessvg/1/0``` in your browser to view the QR code, first parameter is the ID of the data defined by the ```/qrcodes``` endpoint, the second parameter is the index of the message in the array.
+
+### REST API
+
+``` shell
+$ curl -X POST -H "Content-Type: application/json" -d'{"message":"yello"}' http://localhost:8080/qrcode/28989
+```

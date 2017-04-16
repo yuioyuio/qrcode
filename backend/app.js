@@ -1,5 +1,12 @@
-var express = require('express'),
-  app = express();
+'use strict'
+
+const express = require('express')
+const bodyParser = require('body-parser')
+
+const app = express()
+
+app.use(bodyParser.urlencoded({encoded: false}))
+app.use(bodyParser.json())
 
 // we use this for now as it'll allow us to read our objects from the filesystem
 var fs = require('fs');

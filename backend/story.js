@@ -19,7 +19,7 @@ exports.list_all_codes_svg = function (req, res) {
        console.log( qrdata );
        res.end( qrdata );
    });
- };
+};
 exports.add_or_update_code = function (req, res) {
   const fname = __dirname + "/" + "codes.json"
   fs.readFile(fname, "utf8", function (err, data) {
@@ -51,4 +51,4 @@ exports.add_or_update_code = function (req, res) {
       res.json(item );
 
    });
-  };
+};
